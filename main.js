@@ -1,7 +1,7 @@
 // You can change global variables here:
 var radius = 240; // how big of the radius
 var autoRotate = true; // auto rotate or not
-var rotateSpeed = -60; // unit: seconds/360 degrees
+var rotateSpeed = -50; // unit: seconds/360 degrees
 var imgWidth = 120; // width of images (unit: px)
 var imgHeight = 170; // height of images (unit: px)
 
@@ -13,7 +13,7 @@ var bgMusicControls = true; // Show UI music control
 
 // ===================== start =======================
 // animation start after 1000 miliseconds
-setTimeout(init, 1000);
+setTimeout(init, 500);
 
 var odrag = document.getElementById('drag-container');
 var ospin = document.getElementById('spin-container');
